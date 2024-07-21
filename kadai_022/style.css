@@ -31,12 +31,16 @@ main {
 #parent {
    display : flex;
    justify-content: center;
-   flex-wrap: wrap; 
-   align-content: space-between;
 }
 @media screen and (max-width: 768px){
+   h2{
+     font-size: 30px; 
+   }
+   p {
+      font-size:25px;
+   }
    #parent{
-      display: block;
+      flex-direction: column;
    }
 }
 .contents {
